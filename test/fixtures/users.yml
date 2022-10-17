@@ -1,0 +1,31 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nickname: MyString
+  birthday: 2022-10-17
+  gender: 1
+  status: 1
+  username: MyString
+  password_hash: MyString
+  email: MyString
+  email_confirmed: false
+  mobile: MyString
+  wechat: MyString
+  weibo: MyString
+  avatar_url: MyString
+  member_since: 2022-10-17 19:25:30
+
+two:
+  nickname: MyString
+  birthday: 2022-10-17
+  gender: 1
+  status: 1
+  username: MyString
+  password_hash: MyString
+  email: MyString
+  email_confirmed: false
+  mobile: MyString
+  wechat: MyString
+  weibo: MyString
+  avatar_url: MyString
+  member_since: 2022-10-17 19:25:30
