@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dream-word.iml" filepath="$PROJECT_DIR$/.idea/dream-word.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gibberish.iml" filepath="$PROJECT_DIR$/.idea/gibberish.iml" />
     </modules>
   </component>
 </project>
