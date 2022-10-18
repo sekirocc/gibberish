@@ -5,6 +5,8 @@ require 'jwt'
 
 class Api::V1::AccountController < ApplicationController
 
+  # TODO global settings
+
   JWT_HMAC_SECRET = "a_j@tseCrx1tkk$$$"
   JWT_TOKEN_EXP_DAYS = 30
   JWT_TOKEN_REFRESH_CYCLES = 6
@@ -101,7 +103,7 @@ class Api::V1::AccountController < ApplicationController
       nu: counter,
     }
     payload = {
-      iss: "gibberish-server",
+      iss: "gibberish-server",  # TODO global settings
       iat: now,
       exp: now + expiration,
       sub: JSON.dump(sub),
