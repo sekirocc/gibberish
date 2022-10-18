@@ -1,6 +1,6 @@
-class CreateMurmurs < ActiveRecord::Migration[7.0]
+class CreateGibbers < ActiveRecord::Migration[7.0]
   def change
-    create_table :murmurs do |t|
+    create_table :gibbers do |t|
       t.text :content
       t.string :location
       t.integer :visibility

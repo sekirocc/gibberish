@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :users
 
-      resources :murmurs do
+      resources :gibbers do
         collection do
           get 'list_public'
         end

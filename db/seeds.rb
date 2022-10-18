@@ -30,8 +30,8 @@ user = User.create({
     member_since: member_day,
 })
 
-murmur = Murmur.create({
-                content: "this is the first murmur",
+gibber = Gibber.create({
+                content: "this is the first gibber",
                 user_id: user.id
               })
 

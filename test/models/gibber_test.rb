@@ -1,6 +1,6 @@
 require "test_helper"
 
-class Api::V1::MurmursControllerTest < ActionDispatch::IntegrationTest
+class GibberTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

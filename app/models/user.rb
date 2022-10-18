@@ -10,5 +10,5 @@ class User < ApplicationRecord
       female: 2
     }
 
-    has_many :murmurs
+    has_many :gibbers
 end
